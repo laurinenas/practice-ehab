@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import { Chart } from "./components/Chart";
+import { getCoinHistory } from "./services/getMarketChart";
 
 function App() {
+  const [price, setPrice] = useState([{ timestamp: 1, price: 1 }]);
+  useEffect(
+    function () {
+      (async function () {
+        const price = await getCoinHistory(timeFrame);
+        if (price) {
+          setPrice(price);
+        }
+      })();
+    },
+  );
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {state === "init" ? <Spinner /> : <Chart data={price} />}
     </div>
   );
 }

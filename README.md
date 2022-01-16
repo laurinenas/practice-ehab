@@ -18,7 +18,7 @@ You can use any public cryptocurrency api (i.e. https://www.coingecko.com/en/api
 
 ### Acceptance Criteria:
 
-- [ ] The chart compares a single cryptocurrency coin with USD
+- [x] The chart compares a single cryptocurrency coin with USD
 
 - [ ] The results are plotted on a line chart
 
@@ -36,7 +36,7 @@ You can use any public cryptocurrency api (i.e. https://www.coingecko.com/en/api
 
 - [x] Use a charting library of your choice (i.e. Recharts)
 
-- [ ] Prefer functional components + hooks over class based components
+- [x] Prefer functional components + hooks over class based components
 
 - [ ] Use any third party libraries you might need
 

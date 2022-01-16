@@ -19,3 +19,15 @@ export async function getCoinHistory(
     console.error("Fetching market info failed", error);
   }
 }
+
+type PriceTuple = [number, number];
+
+export function transformMapTs(prices?: PriceTuple[]) {
+  if (!prices) {
+    return null;
+  }
+  return prices.map((tuple: PriceTuple) => {
+    const [timestamp, price] = tuple;
+    return { timestamp, price };
+  });
+}
