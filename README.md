@@ -32,7 +32,7 @@ You can use any public cryptocurrency api (i.e. https://www.coingecko.com/en/api
 
 ### Constraints:
 
-- [ ] Spend 2 hours on this - if you don’t finish, don’t worry, we just want to see some code / your thinking.
+- [x] Spend 2 hours on this - if you don’t finish, don’t worry, we just want to see some code / your thinking.
 
 - [x] Use a charting library of your choice (i.e. Recharts)
 
@@ -44,7 +44,7 @@ You can use any public cryptocurrency api (i.e. https://www.coingecko.com/en/api
 
 - [x] Do not use a component library (except for the chart).
 
-- [ ] Write some tests (i.e. Jest + React Testing Library, Cypress, Playwright
+- [x] Write some tests (i.e. Jest + React Testing Library, Cypress, Playwright
 
 - [x] Write a readme that explains your decisions / potential next steps
 
