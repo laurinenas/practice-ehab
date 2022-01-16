@@ -50,7 +50,7 @@ You can use any public cryptocurrency api (i.e. https://www.coingecko.com/en/api
 
 - [x] Bonus : use TypeScript
 
-- [ ] Bonus : host it somewhere (e.g. Vercel)
+- [x] Bonus : host it somewhere (e.g. Vercel)
 
 ## Directory structure
 
@@ -85,3 +85,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+
+# Example
+
+Hosted at: https://practice-ehab.vercel.app
