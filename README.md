@@ -20,7 +20,7 @@ You can use any public cryptocurrency api (i.e. https://www.coingecko.com/en/api
 
 - [x] The chart compares a single cryptocurrency coin with USD
 
-- [ ] The results are plotted on a line chart
+- [x] The results are plotted on a line chart
 
 - [ ] The line chart shows the price in USD over 1 day as default
 

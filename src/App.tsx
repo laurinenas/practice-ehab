@@ -4,6 +4,7 @@ import { getCoinHistory } from "./services/getMarketChart";
 
 function App() {
   const [price, setPrice] = useState([{ timestamp: 1, price: 1 }]);
+  const [timeFrame, setTimeFrame] = useState(1);
   useEffect(
     function () {
       (async function () {
