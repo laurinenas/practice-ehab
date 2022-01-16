@@ -34,19 +34,19 @@ You can use any public cryptocurrency api (i.e. https://www.coingecko.com/en/api
 
 - [ ] Spend 2 hours on this - if you don’t finish, don’t worry, we just want to see some code / your thinking.
 
-- [ ] Use a charting library of your choice (i.e. Recharts)
+- [x] Use a charting library of your choice (i.e. Recharts)
 
 - [ ] Prefer functional components + hooks over class based components
 
 - [ ] Use any third party libraries you might need
 
-- [ ] Use any CSS-in-JS implementation you want (i.e. Styled Components, Emotion)
+- [x] Use any CSS-in-JS implementation you want (i.e. Styled Components)
 
-- [ ] Do not use a component library (except for the chart).
+- [x] Do not use a component library (except for the chart).
 
 - [ ] Write some tests (i.e. Jest + React Testing Library, Cypress, Playwright
 
-- [ ] Write a readme that explains your decisions / potential next steps
+- [x] Write a readme that explains your decisions / potential next steps
 
 - [x] Bonus : use TypeScript
 
