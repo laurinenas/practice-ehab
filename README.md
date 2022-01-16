@@ -22,7 +22,7 @@ You can use any public cryptocurrency api (i.e. https://www.coingecko.com/en/api
 
 - [x] The results are plotted on a line chart
 
-- [ ] The line chart shows the price in USD over 1 day as default
+- [x] The line chart shows the price in USD over 1 day as default
 
 - [ ] There are 3 buttons to change the time frame - 1 day, 7 days, 1 month
 
