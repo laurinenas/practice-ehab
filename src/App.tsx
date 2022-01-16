@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { ButtonGroup } from "./components/ButtonGroup";
 import { Chart } from "./components/Chart";
 import { Spinner } from "./components/Loading";
 import { getCoinHistory } from "./services/getMarketChart";
@@ -23,6 +24,11 @@ function App() {
   );
   return (
     <div className="App">
+      <ButtonGroup
+        buttons={[1, 7, 30]}
+        current={timeFrame}
+        action={setTimeFrame}
+      />
       {state === "init" ? <Spinner /> : <Chart data={price} />}
     </div>
   );
